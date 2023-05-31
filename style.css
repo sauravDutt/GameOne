@@ -32,7 +32,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-#canvas {
+#canvasMain {
     border: 3px solid #5f2ae6;
     width:96%;
     border-radius: 10px;
