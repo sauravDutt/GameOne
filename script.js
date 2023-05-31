@@ -70,7 +70,7 @@ class FlowFieldEffect {
         if (this.timer > this.interval){
             this.#ctx.clearRect(0, 0, this.#width, this.#height);
             this.radius += this.vr;
-            // if(this.radius > 5 || this.radius <-5) this.vr *= -1;
+            if(this.radius > 10 || this.radius <-10) this.vr *= -1;
 
             for(let y = 0; y < this.#height; y+= this.cellSize) {
                 for(let x = 0; x < this.#width; x += this.cellSize){
