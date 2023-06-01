@@ -28,7 +28,7 @@ window.addEventListener('mousemove', function(e) {
     mouse.x = e.x;
     mouse.y = e.y;
 });
-
+ 
 class FlowFieldEffect {
     #ctx;
     #width;
