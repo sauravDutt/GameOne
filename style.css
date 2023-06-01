@@ -33,7 +33,7 @@ h1 {
 }
 
 #canvasMain {
-    border: 3px solid #5f2ae6;
+    border: 3px solid #5c37ba;
     width:96%;
     border-radius: 10px;
     height: 85vh;
@@ -44,7 +44,8 @@ h1 {
 
     #canvas {
         width:96%;
-        height: 80vh;
+        margin-left: 1%;
+        height: 70vh;
     }
 
 }
