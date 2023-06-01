@@ -33,7 +33,7 @@ h1 {
 }
 
 #canvasMain {
-    border: 3px solid #5c37ba;
+    border: 5px solid #3600bf20;
     width:96%;
     border-radius: 10px;
     height: 85vh;
@@ -42,10 +42,10 @@ h1 {
 
 @media screen and (max-width: 550px) {
 
-    #canvas {
+    #canvasMain {
         width:96%;
         margin-left: 1%;
-        height: 70vh;
+        height: 75vh;
     }
 
 }
