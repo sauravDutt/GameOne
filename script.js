@@ -41,7 +41,7 @@ class FlowFieldEffect {
         this.lastTime = 0;
         this.interval = 1000/60;
         this.timer = 0;
-        this.cellSize = 15;
+        this.cellSize = 13;
         this.gradient;
         this.#gradientOne();
         this.#ctx.strokeStyle = this.gradient;
