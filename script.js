@@ -58,14 +58,14 @@ class FlowFieldEffect {
       this.gradient.addColorStop("0.9", "#ffff33");  
     }
     #drawLine(angle, x, y) {
-        let positionX = x;
-        let positionY = y;
-        // applying hypotenuse to find the distance between the mouse pointer and the object(line in this case.)
-        let dx = mouse.x - positionX;
-        let dy = mouse.y - positionY;
-        let distance = dx * dx + dy * dy;
-        if(distance > 500000) distance = 500000
-        let length = distance/10000;
+        // let positionX = x;
+        // let positionY = y;
+        // // applying hypotenuse to find the distance between the mouse pointer and the object(line in this case.)
+        // let dx = mouse.x - positionX;
+        // let dy = mouse.y - positionY;
+        // let distance = dx * dx + dy * dy;
+        // if(distance > 500000) distance = 500000
+        const length = 50;
         this.#ctx.beginPath();
         this.#ctx.moveTo(x, y);
         this.#ctx.lineTo(x + Math.cos(angle) * length, y + Math.sin(angle) * length);
