@@ -33,45 +33,27 @@ h1 {
 }
 
 #canvasMain {
-    border: 3px solid #5f2ae6;
     width:96%;
-    border-radius: 10px;
-    height: 85vh;
+    height: 83vh;
     margin-left: 2%;
+    box-shadow: 2px 1px 25px #ffffff2a;
 }
 
 .doorway {
-    width: 300px;
-    border: 2px solid #5f2ae6;
     position: absolute;
-    top: 50%;
+    margin-left: 2%;
+    font-size: 14px;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(0, 0, 0);
-    color: #fff;
+    transform: translate(-50%, -50%); */
+    color: #ffffffb8;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
-    text-align: center;
     border-radius: 15px;
     user-select: none;
-    box-shadow: 2px 1px 15px #7b7b7b86;
-}
-.doorway button {
-    background-color: transparent;
-    border: 1px solid #ffffff63;
-    padding: 10px;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.doorway button:hover {
-    background-color: #ffffffc2;
-    color: #000;
 }
 .secondText {
-    font-size: 25px;
-    font-weight: 300;
-    color: #ffffffa0;
+    color: #ffffff7d;
 }
 
 
@@ -80,7 +62,7 @@ h1 {
     #canvasMain {
         width:96%;
         margin-left: 1%;
-        height: 75vh;
+        height: 70vh;
     }
 
 }
