@@ -65,14 +65,13 @@ h1 {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    background-color: #000;
-    color: #5f2ae6;
     border-radius: 20px;
     padding: 10px;
-}
-.password:hover {
     background-color: #fff;
     color: #1d055c;
+}
+.password:hover {
+    color: #5f2ae6;
 }
 
 @media screen and (max-width: 550px) {
@@ -83,9 +82,6 @@ h1 {
         height: 70vh;
     }
     .password {
-        height: 30px;
-        width: 30px;
-        font-size: 25px;
         top: 73%;
         right: 7%;
     }
