@@ -3,6 +3,8 @@ let ctx;
 let flowField;
 let flowFieldAnimation;
 
+const password = document.getElementById('lock');
+
 window.onload = function () {
     canvas = document.getElementById('canvasMain');
     ctx = canvas.getContext('2d');
@@ -18,6 +20,10 @@ window.addEventListener('resize', function() {
     canvas.height = window.innerHeight;
     flowField = new FlowFieldEffect(ctx, canvas.width, canvas.height);
     flowField.animate(0)
+});
+
+password.addEventListener('click', () => {
+    console.log('enter password.')
 });
 
 const mouse = {
