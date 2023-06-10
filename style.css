@@ -83,13 +83,11 @@ h1 {
 }
 #lock {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 #showPass {
     display: none;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
