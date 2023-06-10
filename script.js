@@ -5,6 +5,7 @@ let flowFieldAnimation;
 
 const password = document.getElementById('lock');
 
+
 window.onload = function () {
     canvas = document.getElementById('canvasMain');
     ctx = canvas.getContext('2d');
@@ -22,21 +23,6 @@ window.addEventListener('resize', function() {
     flowField.animate(0)
 });
 
-password.addEventListener('click', () => {
-    console.log('enter password.');
-    password.style.display = 'none';
-    document.getElementById('passwordOutter').style.width = "330px";
-    document.getElementById('showPass').style.display = 'flex';
-});
-document.getElementById('passwordGo').addEventListener('click', () => {
-    console.log('works');
-    document.getElementById('passwordOutter').style.width = "50px";
-    document.getElementById('showPass').style.display = 'none';
-    password.style.display = 'block';
-})
-// document.getElementById('passwordOutter').addEventListener('click', () => {
-//     document.getElementById('passwordOutter').style.width = "50px"
-// });
 
 const mouse = {
     x: 0,
@@ -111,3 +97,16 @@ class FlowFieldEffect {
         flowFieldAnimation = requestAnimationFrame(this.animate.bind(this));
     }
 }
+
+password.addEventListener('click', () => {
+    console.log('enter password.');
+    password.style.display = 'none';
+    document.getElementById('passwordOutter').style.width = "370px";
+    document.getElementById('showPass').style.display = 'flex';
+});
+document.getElementById('passwordGo').addEventListener('click', () => {
+    console.log('works');
+    document.getElementById('passwordOutter').style.width = "50px";
+    document.getElementById('showPass').style.display = 'none';
+    password.style.display = 'block';
+});

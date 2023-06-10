@@ -88,8 +88,13 @@ h1 {
 }
 #showPass {
     display: none;
-    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 12px;
+    justify-content: space-between;
     align-items: center;
+}
+#showPass:hover {
+    color: #1d055c;
 }
 #showPass input {
     font-size: 20px;
