@@ -80,7 +80,6 @@ h1 {
 }
 #passwordGo {
     margin-left: 20px;
-    display: none;
 }
 #lock {
     display: flex;
@@ -88,15 +87,22 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-#lock input {
+#showPass {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#showPass input {
     font-size: 20px;
     color: #1d055c;
     background: transparent;
     border: 2px solid #5f2ae6;
     border-radius: 5px;
     padding: 10px;
-    display: none;
 }
+
+
 
 @media screen and (max-width: 550px) {
 

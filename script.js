@@ -24,17 +24,15 @@ window.addEventListener('resize', function() {
 
 password.addEventListener('click', () => {
     console.log('enter password.');
+    password.style.display = 'none';
     document.getElementById('passwordOutter').style.width = "330px";
-    document.getElementById('passwordText').style.display = 'block';
-    document.getElementById('lockIcon').style.display = "none";
-    document.getElementById('passwordGo').style.display = 'block';
+    document.getElementById('showPass').style.display = 'flex';
 });
 document.getElementById('passwordGo').addEventListener('click', () => {
-    console.log('works')
+    console.log('works');
     document.getElementById('passwordOutter').style.width = "50px";
-    document.getElementById('passwordText').style.display = 'none';
-    document.getElementById('lockIcon').style.display = "block";
-    document.getElementById('passwordGo').style.display = 'none';
+    document.getElementById('showPass').style.display = 'none';
+    password.style.display = 'block';
 })
 // document.getElementById('passwordOutter').addEventListener('click', () => {
 //     document.getElementById('passwordOutter').style.width = "50px"
