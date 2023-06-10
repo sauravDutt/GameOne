@@ -23,8 +23,12 @@ window.addEventListener('resize', function() {
 });
 
 password.addEventListener('click', () => {
-    console.log('enter password.')
+    console.log('enter password.');
+    document.getElementById('passwordOutter').style.width = "330px";
 });
+// document.getElementById('passwordOutter').addEventListener('click', () => {
+//     document.getElementById('passwordOutter').style.width = "50px"
+// });
 
 const mouse = {
     x: 0,
