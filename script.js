@@ -101,7 +101,7 @@ class FlowFieldEffect {
 password.addEventListener('click', () => {
     console.log('enter password.');
     password.style.display = 'none';
-    document.getElementById('passwordOutter').style.width = "370px";
+    document.getElementById('passwordOutter').style.width = "350px";
     document.getElementById('showPass').style.display = 'flex';
 });
 document.getElementById('passwordGo').addEventListener('click', () => {
