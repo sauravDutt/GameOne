@@ -20,7 +20,26 @@ h1 {
     font-size: 40px;
     margin: 0;
 }
-
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+#lockBtn {
+    float: right;
+    margin: 0;
+    color: #1d055c;
+    font-size: 20px;
+    margin-top: -50px;
+    margin-right: 10px;
+    background-color: #ffffffa5;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#lockBtn:hover {
+    color: #1d055c;
+    background-color: #fff;
+}
 .smallLogo {
     font-family: 'Logo';
     font-weight: 100;
@@ -30,6 +49,15 @@ h1 {
     margin: 0;
     margin-top: -25px;
     margin-bottom: 10px;
+}
+.smallLogoTwo {
+    font-family: 'Logo';
+    font-weight: 100;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.845);
+    margin: 0;
+    margin-top: -40px;
+    margin-left: 20px;
 }
 
 #canvasMain {
