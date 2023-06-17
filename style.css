@@ -4,6 +4,9 @@
 body {
     background-color: rgba(0, 0, 0, 0.912);
 }
+.body::-webkit-scrollbar {
+    width: 0px;
+  }
 
 @font-face {
     font-family: "Logo";
