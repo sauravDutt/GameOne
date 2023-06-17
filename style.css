@@ -116,7 +116,6 @@ h1 {
     overflow: hidden;
 }
 #passwordGo {
-    margin-left: 20px;
     color: #000;
 }
 #lock {
@@ -127,13 +126,13 @@ h1 {
 #showPass {
     display: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    gap: 12px;
-    justify-content: space-between;
+    gap: 22px;
+    justify-content: center;
     align-items: center;
 }
 #showPass input {
     font-size: 20px;
-    color: #1d055c;
+    color: #000;
     background: transparent;
     border: 2px solid #000;
     border-radius: 5px;
