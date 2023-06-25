@@ -10,4 +10,5 @@ window.onload = function() {
     mapCtx = mapCanvas.getContext('2d');
     canvas.window = window.innerWidth;
     canvas.height = window.innerHeight;
+    console.log(ctx);
 }
