@@ -30,7 +30,7 @@ h1 {
     margin-top: -2vh;
     position: fixed;
     background-color: #131313;
-    border-bottom: 1px solid #5f2ae67c;
+    border-bottom: 3px solid #5f2ae67c;
 }
 .navbar {
     margin: 0 auto;
@@ -183,7 +183,7 @@ h1 {
     }
     #gameCanvas {
         height: 69vh;
-        margin-top: 14vh;
+        margin-top: 15vh;
     }
     #mapCanvas {
         width: 350px;
