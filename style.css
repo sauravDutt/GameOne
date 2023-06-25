@@ -25,7 +25,7 @@ h1 {
 }
 .outter-nav {
     width: 102%;
-    height: 12.5vh;
+    height: 10vh;
     margin-left: -1%;
     margin-top: -2vh;
     position: fixed;
@@ -172,6 +172,7 @@ h1 {
 @media screen and (max-width: 550px) {
     .outter-nav {
         width: 102%;
+        height: 12vh;
         margin-left: -2%;
         margin-top: -1vh;
     }
