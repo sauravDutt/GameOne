@@ -84,7 +84,7 @@ h1 {
 #gameCanvas {
     width:96%;
     height: 80vh;
-    margin-top: 14vh;
+    margin-top: 12vh;
     margin-left: 2%;
     box-shadow: 1px 1px 9px #ffffff10;
 }
@@ -183,6 +183,7 @@ h1 {
     }
     #gameCanvas {
         height: 69vh;
+        margin-top: 14vh;
     }
     #mapCanvas {
         width: 350px;
