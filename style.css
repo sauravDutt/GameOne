@@ -24,13 +24,19 @@ h1 {
     margin: 0;
 }
 .outter-nav {
-    width: 99%;
+    width: 102%;
+    height: 12.5vh;
+    margin-left: -1%;
+    margin-top: -2vh;
     position: fixed;
+    background-color: #131313;
+    border-bottom: 1px solid #5f2ae67c;
 }
 .navbar {
-    margin: 0;
+    margin: 0 auto;
+    margin-top: 1.9vh;
     padding: 0;
-
+    width: 90%;
 }
 #lockBtn {
     float: right;
@@ -78,7 +84,7 @@ h1 {
 #gameCanvas {
     width:96%;
     height: 80vh;
-    margin-top: 10vh;
+    margin-top: 14vh;
     margin-left: 2%;
     box-shadow: 1px 1px 9px #ffffff10;
 }
@@ -165,7 +171,9 @@ h1 {
 
 @media screen and (max-width: 550px) {
     .outter-nav {
-        width: 96%;
+        width: 102%;
+        margin-left: -2%;
+        margin-top: -1vh;
     }
     #canvasMain {
         width:97%;
